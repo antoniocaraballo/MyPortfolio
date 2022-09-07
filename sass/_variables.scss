@@ -1,0 +1,19 @@
+// Colors //
+$primary: #025951;
+$secondary: #02735e;
+$third: #0cf25d;
+$dark: #034159;
+$light: #ffffff;
+$black: #333333;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "third": $third,
+  "light": $light,
+  "dark": $dark,
+  "black": $black,
+);
+
+//  Shadow  //
+$box-shadow-lg: 0 1rem 3rem rgba($third, 0.175);

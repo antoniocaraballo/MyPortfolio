@@ -1,0 +1,63 @@
+@import "./variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// * {
+//   outline: solid 1px red;
+// }
+
+.gradient-color {
+  background: rgb(2, 89, 81);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 89, 81, 1) 0%,
+    rgba(2, 115, 94, 1) 100%
+  );
+  border: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.projects-active {
+  padding-bottom: 5px;
+  border-bottom: 5px solid $light;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+}
+
+textarea {
+  resize: none;
+  &:focus-within {
+    outline: none;
+  }
+}
+
+input {
+  border: none;
+
+  &:focus-within {
+    outline: none;
+  }
+}
+
+@media (min-width: 992px) {
+  form {
+    width: 50%;
+  }
+}
