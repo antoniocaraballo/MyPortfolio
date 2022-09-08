@@ -5,6 +5,10 @@
 //   outline: solid 1px red;
 // }
 
+body {
+  overflow-x: hidden;
+}
+
 .gradient-color {
   background: rgb(2, 89, 81);
   background: linear-gradient(
@@ -59,5 +63,18 @@ input {
 @media (min-width: 992px) {
   form {
     width: 50%;
+  }
+}
+
+@media (max-width: 992px) {
+  #nav-menu {
+    left: 100%;
+    position: fixed;
+    transition: left ease-in-out 0.2s;
+    background: $secondary;
+    height: 100vh;
+    width: 50%;
+    top: 0%;
+    z-index: 900;
   }
 }

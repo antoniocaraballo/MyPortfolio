@@ -11956,6 +11956,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .gradient-color {
   background: rgb(2, 89, 81);
   background: -webkit-gradient(linear, left top, right top, from(rgb(2, 89, 81)), to(rgb(2, 115, 94)));
@@ -12006,5 +12010,18 @@ input:focus-within {
 @media (min-width: 992px) {
   form {
     width: 50%;
+  }
+}
+@media (max-width: 992px) {
+  #nav-menu {
+    left: 100%;
+    position: fixed;
+    -webkit-transition: left ease-in-out 0.2s;
+    transition: left ease-in-out 0.2s;
+    background: #02735e;
+    height: 100vh;
+    width: 50%;
+    top: 0%;
+    z-index: 900;
   }
 }

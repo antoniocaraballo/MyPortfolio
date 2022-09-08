@@ -22,19 +22,29 @@
         href="./index.html"
         >A.</a
       >
-      <div class="collapse-lg">
-        <div class="navbar-nav">
-          <a class="nav-link text-light me-4" href="./index.html">Home</a>
-          <a class="nav-link active text-light me-4" href="./projects.html"
+      <div id="nav-menu" class="p-3 p-lg-0">
+        <div class="navbar-nav gap-3">
+          <i class="bi bi-x fs-1 d-lg-none text-left" onclick="closeNav()"></i>
+          <a
+            class="nav-link active text-light me-lg-4 text-center"
+            href="./index.html"
+            >Home</a
+          >
+          <a
+            class="nav-link text-light me-lg-4 text-center"
+            href="./projects.html"
             >Projects</a
           >
           <a
-            class="nav-link text-light me-4 btn px-4 shadow-lg gradient-color"
+            class="nav-link text-light me-lg-4 btn px-4 shadow-lg gradient-color"
             href="./contact.html"
             >Contact</a
           >
         </div>
       </div>
+      <a class="text-light d-lg-none" onclick="openNav()">
+        <i class="bi bi-list me-4 fs-1"></i>
+      </a>
     </nav>
     <!-- Projects Section -->
     <section class="my-5">
@@ -57,8 +67,8 @@
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Ariana Portfolio</h5>
               <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                UI/UX Designer portfolio. It displays all skills and
+                technologies know by Ariana.
               </p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
@@ -91,8 +101,8 @@
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Cashier Dashboard</h5>
               <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Simulation of a POS program. Available to add to cart, remove
+                and complete purchase.
               </p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
@@ -125,8 +135,7 @@
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Web Agency</h5>
               <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Full mobile responsive website for a Web Design agency.
               </p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
@@ -158,8 +167,8 @@
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Fitness Website</h5>
               <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Website to demonstrate Front-End skills. Made completly with raw
+                CSS.
               </p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
@@ -191,8 +200,8 @@
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Giftshop Website</h5>
               <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Website to demonstrate Front-End skills. Made completly with raw
+                CSS.
               </p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
@@ -224,8 +233,8 @@
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Register & Login</h5>
               <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Basic login page with the ability to register. Used localhost to
+                simulate a data base.
               </p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
@@ -256,10 +265,7 @@
             />
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Doordash Newsletter Email</h5>
-              <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text text-black my-3"></p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
                 <img width="20px" src="./icons/html-5.png" alt="" />
@@ -287,10 +293,7 @@
             />
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Shopify Transactional Email</h5>
-              <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text text-black my-3"></p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
                 <img width="20px" src="./icons/html-5.png" alt="" />
@@ -318,10 +321,7 @@
             />
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Priceline Promotional Email</h5>
-              <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+              <p class="card-text text-black my-3"></p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
                 <img width="20px" src="./icons/html-5.png" alt="" />
@@ -350,8 +350,8 @@
             <div class="card-body p-4 my-2">
               <h5 class="card-title text-black">Rock, Paper, Scissors</h5>
               <p class="card-text text-black my-3">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Console app that demonstrates the utility of loops and if
+                statements. Built using C#.
               </p>
               <p class="fw-bold text-black lh-1 mb-2">Technologies used:</p>
               <div class="d-flex gap-2 mb-4">
@@ -368,7 +368,6 @@
         </div>
       </div>
     </section>
-
     <!-- Footer -->
     <footer class="bg-dark py-5">
       <div class="container">
